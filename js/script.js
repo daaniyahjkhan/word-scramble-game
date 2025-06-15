@@ -1,33 +1,3 @@
-// import words from "./word.js"
-
-// const wordtext = document.querySelector(".word");
-// const hinttext = document.querySelector(".hint");
-// const refresh = document.querySelector(".refresh-word");
-// const check = document.querySelector(".check-word");
-
-
-// const initGame=()=>{
-//     const randomobj = words[Math.floor(Math.random()*words.length)];
-//     const selectedword = randomobj.word;
-//     const wordarray = selectedword.split("");
-
-// for (let i=wordarray.length-1;i>0;i--){
-//     let j= Math.floor(Math.random()*(i+1))
-//     let temp=wordarray[i];
-//     wordarray[i]=wordarray[j];
-//     wordarray[j]=temp;
-// }
-// wordtext.innerHTML = wordarray.join("");
-// hinttext
-
-//     console.log(randomobj);
-//     console.log(selectedword);
-//     console.log(wordarray);
-
-// }
-// initGame();
-
-
 import words from "./word.js";
 
 const wordText = document.querySelector(".word");
